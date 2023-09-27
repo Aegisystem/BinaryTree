@@ -1,0 +1,15 @@
+.tree {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.node {
+    border: 1px solid #000;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    margin: 0 10px;
+}
