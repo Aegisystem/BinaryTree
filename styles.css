@@ -1,15 +1,32 @@
-.tree {
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.tree-row {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
 }
 
-.node {
-    border: 1px solid #000;
+.tree-node {
+    display: inline-block;
+    border: 1px solid black;
+    padding: 5px;
+    margin: 5px;
     width: 40px;
-    height: 40px;
     text-align: center;
-    line-height: 40px;
-    margin: 0 10px;
+}
+
+#tree-container {
+    margin: 20px auto;
+    width: 80%;
+}
+
+.node-level-1 {
+    margin-left: 20px;
+}
+
+.node-level-2 {
+    margin-left: 40px;
 }
